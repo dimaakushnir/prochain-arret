@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- <meta name="mobile-web-app-capable" content="yes"> -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Home</title>
 </head>
 
 <body>
-    
+    <svg display="none">
+    <symbol id="arrow-big" viewBox="0 0 46 68">
+        <g>
+            <path
+                d="M7.98756 68C9.91236 68 11.8372 67.2747 13.3019 65.8292L45.4999 34.0027L13.3019 2.17087C10.3883 -0.709648 5.64503 -0.725303 2.71024 2.13434C-0.22454 4.99398 -0.240404 9.64873 2.67323 12.5292L24.3906 33.9974L2.67323 55.4656C-0.240404 58.3461 -0.22454 63.0009 2.71024 65.8605C4.1697 67.2851 6.07863 67.9948 7.98756 67.9948V68Z" />
+        </g>
+    </symbol>
+    <symbol id="close" viewBox="0 0 18 18">
+        <g>
+            <path
+                d="M1.96422 18L0 16.0323L7.11628 8.90322L0.0966017 1.87097L1.93202 0.0322576L8.9517 7.06452L16.0036 0L17.9678 1.96774L10.9159 9.03226L18 16.129L16.1324 18L9.0483 10.9032L1.96422 18Z" />
+        </g>
+    </symbol>
+    <symbol id="like" viewBox="0 0 22 19">
+        <g>
+            <path
+                d="M11.0012 18.8374L1.87474 9.71096C1.14676 8.98298 0.661434 8.13662 0.418773 7.1719C0.182031 6.20717 0.18499 5.24836 0.427651 4.29548C0.670312 3.33667 1.15267 2.50215 1.87474 1.79193C2.61456 1.06394 3.45795 0.58158 4.40492 0.344838C5.35781 0.102176 6.30774 0.102176 7.25471 0.344838C8.2076 0.587498 9.05395 1.06986 9.79377 1.79193L11.0012 2.9638L12.2085 1.79193C12.9543 1.06986 13.8006 0.587498 14.7476 0.344838C15.6946 0.102176 16.6415 0.102176 17.5885 0.344838C18.5414 0.58158 19.3878 1.06394 20.1276 1.79193C20.8496 2.50215 21.332 3.33667 21.5747 4.29548C21.8173 5.24836 21.8173 6.20717 21.5747 7.1719C21.3379 8.13662 20.8556 8.98298 20.1276 9.71096L11.0012 18.8374Z" />
+        </g>
+    </symbol>
+</svg>
     <div class="wrapper">
         <header class="header">
-    <div class="header__row">
-        <a href="index.html" class="header__logo">
-            <img src="img/logo.png" alt="logo">
-        </a>
-        <div class="header__text">Explore les univers métiers du transport urbain et ferroviaire</div>
-    </div>
-</header>
+            <div class="header__row">
+                <a href="index.html" class="header__logo">
+                    <img src="img/logo.png" alt="logo">
+                </a>
+                <div class="header__text">Explore les univers métiers du transport urbain et ferroviaire</div>
+            </div>
+        </header>
         <main class="home">
             <section class="home__hero hero">
                 <div class="hero__bg">
@@ -47,7 +70,7 @@
                     </div>
                 </div>
             </section>
-            <section class="home__result result">
+            <section class="home__result result gold">
                 <div class="result__body">
                     <div class="result__medal medal">
                         <div class="medal__body">
@@ -58,8 +81,9 @@
                             <div class="medal__niveau niveau-medal">
                                 <div class="niveau-medal__label medal__label">Ton niveau :</div>
                                 <div class="niveau-medal__value">
-
-                                    Conducteur<br> d’idées
+                                    <span class="niveau-medal__value-low">Voyageur<br> en gare</span>
+                                    <span class="niveau-medal__value-medium">Passager<br> Curieux</span>
+                                    <span class="niveau-medal__value-high">Apprenti<br> conducteur</span>
                                 </div>
                             </div>
                         </div>
@@ -111,44 +135,85 @@
                                         </div>
                                         <div class="tab__body">
                                             <div class="tab__block visible active" data-tab="description">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="tab__block" data-tab="pré-requis">
-                                                <div class="tab__content">
-                                                    <ul class="item-vacancies__list">
-                                                        <li class="item-vacancies__list-item">
-                                                            Âge minimum : 21 ans (pour l'autorisation de port d'arme).
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Casier judiciaire vierge.
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Niveau CAP, BEP à Bac+3, ou sans diplôme avec au moins 2 ans
-                                                            d'expérience en sécurité ou relation client.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="tab__block" data-tab="environnement-de-travail">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <ul class="item-vacancies__list">
+                                                                <li class="item-vacancies__list-item">
+                                                                    Âge minimum : 21 ans (pour l'autorisation de port
+                                                                    d'arme).
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Casier judiciaire vierge.
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Niveau CAP, BEP à Bac+3, ou sans diplôme avec au
+                                                                    moins 2
+                                                                    ans
+                                                                    d'expérience en sécurité ou relation client.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="" class="item-vacancies__btn">En savoir plus</a>
+                                            <div class="tab__block" data-tab="environnement-de-travail">
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bas, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="item-vacancies__btn">En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -182,44 +247,85 @@
                                         </div>
                                         <div class="tab__body">
                                             <div class="tab__block visible active" data-tab="description">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="tab__block" data-tab="pré-requis">
-                                                <div class="tab__content">
-                                                    <ul class="item-vacancies__list">
-                                                        <li class="item-vacancies__list-item">
-                                                            Âge minimum : 21 ans (pour l'autorisation de port d'arme).
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Casier judiciaire vierge.
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Niveau CAP, BEP à Bac+3, ou sans diplôme avec au moins 2 ans
-                                                            d'expérience en sécurité ou relation client.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="tab__block" data-tab="environnement-de-travail">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <ul class="item-vacancies__list">
+                                                                <li class="item-vacancies__list-item">
+                                                                    Âge minimum : 21 ans (pour l'autorisation de port
+                                                                    d'arme).
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Casier judiciaire vierge.
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Niveau CAP, BEP à Bac+3, ou sans diplôme avec au
+                                                                    moins 2
+                                                                    ans
+                                                                    d'expérience en sécurité ou relation client.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="" class="item-vacancies__btn">En savoir plus</a>
+                                            <div class="tab__block" data-tab="environnement-de-travail">
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="item-vacancies__btn">En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -253,44 +359,85 @@
                                         </div>
                                         <div class="tab__body">
                                             <div class="tab__block visible active" data-tab="description">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="tab__block" data-tab="pré-requis">
-                                                <div class="tab__content">
-                                                    <ul class="item-vacancies__list">
-                                                        <li class="item-vacancies__list-item">
-                                                            Âge minimum : 21 ans (pour l'autorisation de port d'arme).
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Casier judiciaire vierge.
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Niveau CAP, BEP à Bac+3, ou sans diplôme avec au moins 2 ans
-                                                            d'expérience en sécurité ou relation client.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="tab__block" data-tab="environnement-de-travail">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <ul class="item-vacancies__list">
+                                                                <li class="item-vacancies__list-item">
+                                                                    Âge minimum : 21 ans (pour l'autorisation de port
+                                                                    d'arme).
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Casier judiciaire vierge.
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Niveau CAP, BEP à Bac+3, ou sans diplôme avec au
+                                                                    moins 2
+                                                                    ans
+                                                                    d'expérience en sécurité ou relation client.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="" class="item-vacancies__btn">En savoir plus</a>
+                                            <div class="tab__block" data-tab="environnement-de-travail">
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="item-vacancies__btn">En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -324,44 +471,85 @@
                                         </div>
                                         <div class="tab__body">
                                             <div class="tab__block visible active" data-tab="description">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="tab__block" data-tab="pré-requis">
-                                                <div class="tab__content">
-                                                    <ul class="item-vacancies__list">
-                                                        <li class="item-vacancies__list-item">
-                                                            Âge minimum : 21 ans (pour l'autorisation de port d'arme).
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Casier judiciaire vierge.
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Niveau CAP, BEP à Bac+3, ou sans diplôme avec au moins 2 ans
-                                                            d'expérience en sécurité ou relation client.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="tab__block" data-tab="environnement-de-travail">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <ul class="item-vacancies__list">
+                                                                <li class="item-vacancies__list-item">
+                                                                    Âge minimum : 21 ans (pour l'autorisation de port
+                                                                    d'arme).
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Casier judiciaire vierge.
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Niveau CAP, BEP à Bac+3, ou sans diplôme avec au
+                                                                    moins 2
+                                                                    ans
+                                                                    d'expérience en sécurité ou relation client.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="" class="item-vacancies__btn">En savoir plus</a>
+                                            <div class="tab__block" data-tab="environnement-de-travail">
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="item-vacancies__btn">En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -395,44 +583,85 @@
                                         </div>
                                         <div class="tab__body">
                                             <div class="tab__block visible active" data-tab="description">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="tab__block" data-tab="pré-requis">
-                                                <div class="tab__content">
-                                                    <ul class="item-vacancies__list">
-                                                        <li class="item-vacancies__list-item">
-                                                            Âge minimum : 21 ans (pour l'autorisation de port d'arme).
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Casier judiciaire vierge.
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Niveau CAP, BEP à Bac+3, ou sans diplôme avec au moins 2 ans
-                                                            d'expérience en sécurité ou relation client.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="tab__block" data-tab="environnement-de-travail">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <ul class="item-vacancies__list">
+                                                                <li class="item-vacancies__list-item">
+                                                                    Âge minimum : 21 ans (pour l'autorisation de port
+                                                                    d'arme).
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Casier judiciaire vierge.
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Niveau CAP, BEP à Bac+3, ou sans diplôme avec au
+                                                                    moins 2
+                                                                    ans
+                                                                    d'expérience en sécurité ou relation client.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="" class="item-vacancies__btn">En savoir plus</a>
+                                            <div class="tab__block" data-tab="environnement-de-travail">
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="item-vacancies__btn">En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -466,44 +695,85 @@
                                         </div>
                                         <div class="tab__body">
                                             <div class="tab__block visible active" data-tab="description">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="tab__block" data-tab="pré-requis">
-                                                <div class="tab__content">
-                                                    <ul class="item-vacancies__list">
-                                                        <li class="item-vacancies__list-item">
-                                                            Âge minimum : 21 ans (pour l'autorisation de port d'arme).
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Casier judiciaire vierge.
-                                                        </li>
-                                                        <li class="item-vacancies__list-item">
-                                                            Niveau CAP, BEP à Bac+3, ou sans diplôme avec au moins 2 ans
-                                                            d'expérience en sécurité ou relation client.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="tab__block" data-tab="environnement-de-travail">
-                                                <div class="tab__content">
-                                                    <div class="item-vacancies__text">
-                                                        Le technicien de maintenance infrastructures garantit le bon
-                                                        fonctionnement des installations techniques (stations de métro,
-                                                        parcs relais, terminus de bus, bâtiments), réalise des
-                                                        diagnostics, coordonne les dépannages, contrôle les contrats de
-                                                        sous-traitance et suit les projets d'aménagement.
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <ul class="item-vacancies__list">
+                                                                <li class="item-vacancies__list-item">
+                                                                    Âge minimum : 21 ans (pour l'autorisation de port
+                                                                    d'arme).
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Casier judiciaire vierge.
+                                                                </li>
+                                                                <li class="item-vacancies__list-item">
+                                                                    Niveau CAP, BEP à Bac+3, ou sans diplôme avec au
+                                                                    moins 2
+                                                                    ans
+                                                                    d'expérience en sécurité ou relation client.
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="" class="item-vacancies__btn">En savoir plus</a>
+                                            <div class="tab__block" data-tab="environnement-de-travail">
+                                                <div class="tab__main">
+                                                    <div class="tab__content">
+                                                        <div class="tab__inner">
+                                                            <div class="item-vacancies__text">
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                                Le technicien de maintenance infrastructures garantit le
+                                                                bon
+                                                                fonctionnement des installations techniques (stations de
+                                                                métro,
+                                                                parcs relais, terminus de bus, bâtiments), réalise des
+                                                                diagnostics, coordonne les dépannages, contrôle les
+                                                                contrats
+                                                                de
+                                                                sous-traitance et suit les projets d'aménagement.
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="item-vacancies__btn">En savoir plus</a>
                                         </div>
                                     </div>
                                 </div>
@@ -514,24 +784,24 @@
             </section>
         </main>
         <footer class="footer">
-    <div class="footer__container container">
-        <div class="footer__row">
-            <nav class="footer__menu menu-footer">
-                <ul class="menu-footer__list">
-                    <li class="menu-footer__item">
-                        <a href="" class="menu-footer__link">Futur en train</a>
-                    </li>
-                    <li class="menu-footer__item">
-                        <a href="" class="menu-footer__link">Faites bouger les lignes</a>
-                    </li>
-                    <li class="menu-footer__item">
-                        <a href="" class="menu-footer__link">Mentions légales</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-</footer>
+            <div class="footer__container container">
+                <div class="footer__row">
+                    <nav class="footer__menu menu-footer">
+                        <ul class="menu-footer__list">
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Futur en train</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Faites bouger les lignes</a>
+                            </li>
+                            <li class="menu-footer__item">
+                                <a href="" class="menu-footer__link">Mentions légales</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="js/app.min.js"></script>
 </body>

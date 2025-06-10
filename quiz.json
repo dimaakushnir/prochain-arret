@@ -1,0 +1,964 @@
+{
+  "tech": [
+    {
+      "question": "Quel transport est généralement utilisé pour les trajets longue distance en France ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Métro"
+        },
+        {
+          "value": "b",
+          "label": "Train"
+        },
+        {
+          "value": "c",
+          "label": "Tramway"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Le train est le principal mode utilisé pour les longues distances, contrairement au métro ou au tramway, limités à l’environnement urbain."
+    },
+    {
+      "question": "Le vélo en libre-service est considéré comme :",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Un loisir uniquement"
+        },
+        {
+          "value": "b",
+          "label": "Un transport de fret"
+        },
+        {
+          "value": "c",
+          "label": "Une solution de mobilité douce"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Le vélo partagé réduit l’usage de la voiture et complète les trajets en transports en commun. Il est présent dans plus de 300 villes en France."
+    },
+    {
+      "question": "Quel moyen de transport est souvent automatique (sans conducteur) ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Métro"
+        },
+        {
+          "value": "b",
+          "label": "Bus"
+        },
+        {
+          "value": "c",
+          "label": "Tramway"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "De nombreuses lignes de métro en France sont automatisées, notamment à Lille, Paris et Rennes."
+    },
+    {
+      "question": "Quel transport est le plus adapté à un trajet quotidien de quelques kilomètres ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Bus"
+        },
+        {
+          "value": "b",
+          "label": "Vélo"
+        },
+        {
+          "value": "c",
+          "label": "TGV"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Le vélo est idéal pour les trajets courts, bon pour la santé et respectueux de l’environnement."
+    },
+    {
+      "question": "Combien de personnes un tramway peut-il transporter en moyenne ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "50 personnes"
+        },
+        {
+          "value": "b",
+          "label": "100 personnes"
+        },
+        {
+          "value": "c",
+          "label": "Jusqu'à 250 personnes"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Un tram moderne peut accueillir entre 200 et 250 passagers selon sa configuration."
+    },
+    {
+      "question": "Quel mode de transport urbain a la meilleure régularité horaire ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Métro"
+        },
+        {
+          "value": "b",
+          "label": "Bus"
+        },
+        {
+          "value": "c",
+          "label": "Tramway"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Grâce à l’automatisation et à la fréquence élevée, le métro est le plus ponctuel des transports collectifs."
+    },
+    {
+      "question": "Quel est le coût moyen d’un trajet en transport urbain (type métro ou bus) ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Environ 1,70 €"
+        },
+        {
+          "value": "b",
+          "label": "5€"
+        },
+        {
+          "value": "c",
+          "label": "10€"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "En moyenne, un ticket simple en transport urbain coûte entre 1,50 € et 2 €, selon les villes."
+    },
+    {
+      "question": "Combien de personnes utilisent les transports collectifs chaque jour en France ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "5 millions"
+        },
+        {
+          "value": "b",
+          "label": "10 millions"
+        },
+        {
+          "value": "c",
+          "label": "Plus de 20 Millions"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "En incluant TER, bus, métro, tram et RER, ce sont plus de 20 millions de voyages effectués quotidiennement."
+    },
+    {
+      "question": "En moyenne, combien de kilomètres les voyageurs parcourent-ils chaque année en train en France ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Environ 10 millions de kilomètres"
+        },
+        {
+          "value": "b",
+          "label": "Environ 1 milliard de kilomètres"
+        },
+        {
+          "value": "c",
+          "label": "Environ 100 milliards de kilomètres"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Chaque année, les passagers français parcourent plus de 100 milliards de kilomètres en train.\nCela représente l’un des moyens de transport les plus utilisés pour les longues distances !"
+    },
+    {
+      "question": "Combien de kilomètres sont parcourus chaque année avec les vélos en libre-service en France ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Environ 10 millions de kilomètres"
+        },
+        {
+          "value": "b",
+          "label": "Environ 100 millions de kilomètres"
+        },
+        {
+          "value": "c",
+          "label": "Plus d’un milliard de kilomètres"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Chaque année, les vélos en libre-service permettent de parcourir environ 100 millions de kilomètres en France.\nIls sont surtout utilisés pour des trajets courts, entre 2 et 3 km en moyenne, souvent en complément du métro ou du tramway."
+    },
+    {
+      "question": "Quel est l'un des avantages majeur du fret ferroviaire ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Il transporte moins vite mais pollue plus"
+        },
+        {
+          "value": "b",
+          "label": "Il ne roule que la nuit"
+        },
+        {
+          "value": "c",
+          "label": "Il permet de transporter beaucoup en polluant très peu"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Un train de fret peut remplacer jusqu’à 50 camions sur la route, tout en émettant 9 fois moins de CO₂."
+    },
+    {
+      "question": "Pourquoi veut-on développer davantage le fret ferroviaire en France ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Pour libérer les pistes d’atterrissage"
+        },
+        {
+          "value": "b",
+          "label": "Pour désengorger les routes et polluer moins"
+        },
+        {
+          "value": "c",
+          "label": "Pour faire concurrence aux bateaux"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Moins de camions sur les routes, c’est moins d’accidents, moins de CO₂, et plus d’efficacité logistique sur longue distance."
+    },
+    {
+      "question": "Combien de camions peut remplacer un seul train de fret ?",
+      "thematic": "Moyens de transport",
+      "answers": [
+        {
+          "value": "a",
+          "label": "5 camions"
+        },
+        {
+          "value": "b",
+          "label": "Environ 50 camions"
+        },
+        {
+          "value": "c",
+          "label": "Environ 1000 camions"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Un train de fret peut remplacer jusqu’à 50 poids lourds. C’est un atout majeur pour la transition écologique."
+    },
+    {
+      "question": "Le technicentre est un lieu dédié à :",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "L’accueil des voyageurs"
+        },
+        {
+          "value": "b",
+          "label": "La maintenance des trains"
+        },
+        {
+          "value": "c",
+          "label": "La vente de billets"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Les technicentres regroupent des équipes techniques qui assurent la fiabilité et la sécurité des trains."
+    },
+    {
+      "question": "Où travaille un agent de sûreté ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Dans les ateliers de maintenance"
+        },
+        {
+          "value": "b",
+          "label": "Dans un bureau fermé"
+        },
+        {
+          "value": "c",
+          "label": "En gare ou en station"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "L’agent de sûreté est mobile et intervient dans les gares ou stations pour assurer la sécurité des voyageurs."
+    },
+    {
+      "question": "Quel professionnel travaille au contact direct des voyageurs en gare ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Conducteur de train"
+        },
+        {
+          "value": "b",
+          "label": "Agent en gare"
+        },
+        {
+          "value": "c",
+          "label": "Technicien de maintenance"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "L’agent en gare est en première ligne pour renseigner, orienter, vendre des billets et assurer le bon déroulement du service aux voyageurs."
+    },
+    {
+      "question": "Quel est le rôle principal d’un responsable de l’information voyageur ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Réparer les tramways"
+        },
+        {
+          "value": "b",
+          "label": "Assurer l’affichage et la diffusion d’informations en temps réel"
+        },
+        {
+          "value": "c",
+          "label": "Contrôler les titres de transport"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Le responsable de l’information voyageur supervise les annonces, écrans, alertes et affichages en stations pour informer efficacement les usagers."
+    },
+    {
+      "question": "Sur les voies ferrées, qui grimpe en hauteur pour s’occuper des câbles électriques qui alimentent les trains ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Agent en gare"
+        },
+        {
+          "value": "b",
+          "label": "Technicien caténaire"
+        },
+        {
+          "value": "c",
+          "label": "Conducteur de tram"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Le technicien caténaire travaille souvent en hauteur, sur les poteaux qui supportent les câbles électriques nécessaires au fonctionnement des trains."
+    },
+    {
+      "question": "Qui conduit les trains de voyageurs ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Agent à bord"
+        },
+        {
+          "value": "b",
+          "label": "Conducteur de Train"
+        },
+        {
+          "value": "c",
+          "label": "Technicien de maintenance"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Le conducteur est responsable de la conduite, du respect des horaires et de la sécurité des passagers."
+    },
+    {
+      "question": "Où travaille principalement un data scientist dans les transports ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Dans une rame de métro"
+        },
+        {
+          "value": "b",
+          "label": "Dans un bureau d’études"
+        },
+        {
+          "value": "c",
+          "label": "Sur le quai d’une gare"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Depuis son bureau d'études, le data scientist analyse les données du réseau pour optimiser les flux, prévenir les incidents ou améliorer le service."
+    },
+    {
+      "question": "Dans un atelier urbain, qui est chargé de réparer la carrosserie des bus ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Électrotechnicien"
+        },
+        {
+          "value": "b",
+          "label": "Agent de circulation"
+        },
+        {
+          "value": "c",
+          "label": "Carrossier réparateur"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Le carrossier réparateur intervient sur les éléments extérieurs du véhicule (tôlerie, peinture), souvent après un accident ou un choc."
+    },
+    {
+      "question": "C’est ici que tu peux croiser un bus, un tram et un vélo en libre-service… en même temps ! Qui suis-je ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Un technicentre"
+        },
+        {
+          "value": "b",
+          "label": "Un Hub de transport urbain"
+        },
+        {
+          "value": "c",
+          "label": "Une gare de métro"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Le hub de transport urbain est un lieu où se croisent plusieurs modes de transport, pour te permettre de changer facilement."
+    },
+    {
+      "question": "Je suis souvent dans un immeuble, calme et connecté. On y dessine, on y code, on y prévoit les transports du futur. Qui suis-je ?",
+      "thematic": "Lieux d’activité",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Bureau d'études / ingénierie"
+        },
+        {
+          "value": "b",
+          "label": "Gare ferroviaire"
+        },
+        {
+          "value": "c",
+          "label": "Hub de transport urbain"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Le bureau d’études, c’est le cerveau de l’innovation. C’est là que naissent les projets, les plans, et les nouvelles idées pour les transports."
+    },
+    {
+      "question": "Pourquoi les entreprises de transport recrutent-elles autant ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "De nombreux départs en retraite sont prévus"
+        },
+        {
+          "value": "b",
+          "label": "Les gens voyagent moins"
+        },
+        {
+          "value": "c",
+          "label": "Les robots remplacent tout"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Avec de nombreux départs à la retraite prévus, le secteur recrute massivement pour former la relève et maintenir la qualité du service. On estime que plus de 50 000 postes seront à pourvoir d'ici 2030 !"
+    },
+    {
+      "question": "Quel profil est de plus en plus recherché dans les transports ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Techniciens et ingénieurs"
+        },
+        {
+          "value": "b",
+          "label": "Conducteurs"
+        },
+        {
+          "value": "c",
+          "label": "Acteurs"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "La modernisation du réseau crée une forte demande de profils techniques, comme les ingénieurs et techniciens spécialisés."
+    },
+    {
+      "question": "Combien de recrutements sont prévus dans les transports ferroviaires et urbains d'ici 2030 ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Environ 10 000"
+        },
+        {
+          "value": "b",
+          "label": "Environ 50 000"
+        },
+        {
+          "value": "c",
+          "label": "Plus de 100 000"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Plus de 100 000 postes seront à pourvoir dans le secteur, notamment à cause des départs à la retraite et de l’essor des mobilités durables."
+    },
+    {
+      "question": "Quel est le salaire moyen d'un conducteur de bus qui débute ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Environ 1 200 € brut /mois"
+        },
+        {
+          "value": "b",
+          "label": "Environ 1 900 € brut / mois"
+        },
+        {
+          "value": "c",
+          "label": "Environ 3 000 € Brut par mois"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Un conducteur de bus débute en général autour de 1 900 € brut par mois, avec des primes selon les horaires et responsabilités."
+    },
+    {
+      "question": "Peut-on accéder à un métier du transport sans diplôme ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Non, il faut au minimum un Bac +2"
+        },
+        {
+          "value": "b",
+          "label": "Oui, certains métiers sont accessibles avec une formation interne"
+        },
+        {
+          "value": "c",
+          "label": "Non, seulement après un doctorat"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Certains métiers (conducteur, agent de maintenance, sûreté) sont accessibles après une formation interne."
+    },
+    {
+      "question": "Quel type de planning retrouve-t-on souvent dans les métiers des transports ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Uniquement du lundi au vendredi, de 9h à 17h"
+        },
+        {
+          "value": "b",
+          "label": "Uniquement la nuit"
+        },
+        {
+          "value": "c",
+          "label": "Un peu de tout"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Beaucoup de services fonctionnent tôt le matin ou tard le soir, mais les plannings sont souvent organisés à l’avance."
+    },
+    {
+      "question": "Peut-on être formé en alternance pour accéder aux métiers du transport ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Non, il n'y a que de longues études"
+        },
+        {
+          "value": "b",
+          "label": "Oui, l'alternance est beaucoup utilisée"
+        },
+        {
+          "value": "c",
+          "label": "Oui, mais seulement en Master"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Beaucoup de métiers (maintenance, sûreté, conduite, etc.) recrutent des jeunes en alternance dès le CAP ou Bac pro."
+    },
+    {
+      "question": "Quel profil est recherché dans les transports aujourd’hui ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Uniquement les ingénieurs"
+        },
+        {
+          "value": "b",
+          "label": "Des jeunes motivés, même sans diplôme"
+        },
+        {
+          "value": "c",
+          "label": "Des stars de la télé"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Ce qui compte souvent, c’est la motivation. Des formations internes permettent de se former sur le terrain."
+    },
+    {
+      "question": "Pourquoi les métiers des transports ont-ils du sens ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Parce qu’ils sont utiles à des millions de personnes chaque jour"
+        },
+        {
+          "value": "b",
+          "label": "Parce qu’ils permettent de visiter les gares"
+        },
+        {
+          "value": "c",
+          "label": "Parce qu’on y travaille la nuit"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Ces métiers permettent de faire bouger une ville ou un pays, d’emmener les gens au travail, à l’école, en famille."
+    },
+    {
+      "question": "Pourquoi les transports sont-ils un secteur attractif pour débuter une carrière ?",
+      "thematic": "Emploi & perspectives",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Parce que les formations sont accessibles et les métiers concrets"
+        },
+        {
+          "value": "b",
+          "label": "Parce qu’on reste assis toute la journée"
+        },
+        {
+          "value": "c",
+          "label": "Parce que c’est un travail saisonnier"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Avec des formations courtes ou en alternance, on peut rapidement entrer dans la vie active avec un métier utile et stable."
+    },
+    {
+      "question": "Quel est un des avantages du tramway en ville ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Il réduit la pollution"
+        },
+        {
+          "value": "b",
+          "label": "Il fait plus de bruit que les voitures"
+        },
+        {
+          "value": "c",
+          "label": "Il consomme plus d’essence"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Le tramway fonctionne à l’électricité et participe à la baisse des émissions de CO₂ en milieu urbain."
+    },
+    {
+      "question": "Les transports collectifs permettent :",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "D’augmenter le trafic routier"
+        },
+        {
+          "value": "b",
+          "label": "D’alléger les embouteillages"
+        },
+        {
+          "value": "c",
+          "label": "De voyager seul"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Un seul bus peut transporter jusqu’à 70 personnes, soit autant que 50 voitures. C’est un levier clé pour la ville durable."
+    },
+    {
+      "question": "Quel est l'un des moyens les plus efficaces pour réduire la pollution en ville ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Augmenter le nombre de parkings"
+        },
+        {
+          "value": "b",
+          "label": "Développer les transports en commun"
+        },
+        {
+          "value": "c",
+          "label": "Installer plus de feux rouges"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "En remplaçant les trajets en voiture individuelle par des bus, tramways ou métros, on diminue fortement les émissions polluantes."
+    },
+    {
+      "question": "Pourquoi les transports en commun améliorent-ils le confort en ville ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Ils remplacent les feux de circulation"
+        },
+        {
+          "value": "b",
+          "label": "Ils réduisent les bouchons et libèrent de l’espace public"
+        },
+        {
+          "value": "c",
+          "label": "Ils obligent à marcher plus"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Moins de voitures, c’est plus de place pour les piétons, les vélos, et un environnement plus calme et respirable."
+    },
+    {
+      "question": "Quel est l’impact des transports collectifs sur les inégalités sociales ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Ils n’ont aucun effet"
+        },
+        {
+          "value": "b",
+          "label": "Ils les aggravent"
+        },
+        {
+          "value": "c",
+          "label": "Ils les réduisent"
+        }
+      ],
+      "correctAnswer": "c",
+      "feedback": "Les transports publics permettent à chacun de se déplacer, quel que soit son revenu, son âge ou son lieu de résidence."
+    },
+    {
+      "question": "Quel type d’énergie est le plus utilisé dans les réseaux de transport collectif ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Essence"
+        },
+        {
+          "value": "b",
+          "label": "Electricité"
+        },
+        {
+          "value": "c",
+          "label": "Charbon"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "La majorité des métros, tramways et trains roulent à l’électricité, une énergie plus propre que les carburants fossiles."
+    },
+    {
+      "question": "Quelle est l’une des raisons de rejoindre un métier du transport aujourd’hui ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Obtenir des réductions sur les billets de train"
+        },
+        {
+          "value": "b",
+          "label": "Contribuer à un futur plus respectueux de l’environnement"
+        },
+        {
+          "value": "c",
+          "label": "Gagner une voiture"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Les métiers du transport permettent d’agir pour le climat en facilitant les mobilités propres et efficaces."
+    },
+    {
+      "question": "Quel type de transport est priorisé dans les politiques de transition écologique ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Voiture thermique inividuelle"
+        },
+        {
+          "value": "b",
+          "label": "Train et tramway"
+        },
+        {
+          "value": "c",
+          "label": "Avion"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Les transports en commun comme le train ou le tram sont au cœur des stratégies bas carbone des grandes villes."
+    },
+    {
+      "question": "Combien de fois le train pollue-t-il moins que la voiture en émission de CO₂ par passager ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Environ 20 fois"
+        },
+        {
+          "value": "b",
+          "label": "Environ 2 fois"
+        },
+        {
+          "value": "c",
+          "label": "Presque pareil"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Le train émet en moyenne 3 g de CO₂ par km/passager, contre environ 60 g pour une voiture thermique."
+    },
+    {
+      "question": "Quel est l’objectif de réduction des émissions de CO₂ dans les transports d’ici 2030 en France ?",
+      "thematic": "Mobilité durable & utilité sociale",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Moins 28 %"
+        },
+        {
+          "value": "b",
+          "label": "Moins 10 %"
+        },
+        {
+          "value": "c",
+          "label": "Moins 50 %"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "La Stratégie nationale bas-carbone prévoit une baisse d’au moins 28 % des émissions du secteur transport d’ici 2030."
+    },
+    {
+      "question": "Quel métier peut se retrouver sur une voie ferrée au lever du soleil ?",
+      "thematic": "Questions amusantes",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Conducteur de métro"
+        },
+        {
+          "value": "b",
+          "label": "Agent de maintenance voie ferrée"
+        },
+        {
+          "value": "c",
+          "label": "Ingénieur cybersécurité"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Les équipes de maintenance interviennent souvent tôt le matin, avant le premier train, pour inspecter les voies."
+    },
+    {
+      "question": "Dans quel lieu de travail pourrait-on croiser des hérissons ou des renards ?",
+      "thematic": "Questions amusantes",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Un chantier ferroviaire en pleine nature"
+        },
+        {
+          "value": "b",
+          "label": "Une cabine de tram"
+        },
+        {
+          "value": "c",
+          "label": "Un centre d’appels"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "Certains chantiers sont situés dans des zones rurales ou naturelles, où la faune locale est bien présente !"
+    },
+    {
+      "question": "Quel est le nom affectueux parfois donné à certains vieux trains ?",
+      "thematic": "Questions amusantes",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Les dinosaures du rail"
+        },
+        {
+          "value": "b",
+          "label": "Les tortillards"
+        },
+        {
+          "value": "c",
+          "label": "Les fusées lentes"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "On appelait « tortillard » un petit train local qui s’arrêtait à toutes les gares. Il roulait lentement, mais il faisait le job !"
+    },
+    {
+      "question": "Quel est l’objet le plus souvent oublié dans les transports en commun ?",
+      "thematic": "Questions amusantes",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Un animal de compagnie"
+        },
+        {
+          "value": "b",
+          "label": "Le parapluie"
+        },
+        {
+          "value": "c",
+          "label": "Une console de jeux"
+        }
+      ],
+      "correctAnswer": "b",
+      "feedback": "Le parapluie est l’objet roi des objets trouvés ! Il pleut, on court, on oublie…"
+    },
+    {
+      "question": "Que signifie « métro » ?",
+      "thematic": "Questions amusantes",
+      "answers": [
+        {
+          "value": "a",
+          "label": "Métropolitain"
+        },
+        {
+          "value": "b",
+          "label": "Métaux rapides"
+        },
+        {
+          "value": "c",
+          "label": "Méthode de transport robotisée"
+        }
+      ],
+      "correctAnswer": "a",
+      "feedback": "« Métro » est l’abréviation de « chemin de fer métropolitain » : un train pour les grandes villes."
+    }
+  ]
+}

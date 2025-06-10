@@ -1,0 +1,172 @@
+{
+  "universes": [
+    {
+      "id": "gare-ferroviaire",
+      "title": "Gare ferroviaire",
+      "image": null,
+      "description": "Grande gare traditionnelle avec une verrière emblématique, évoquant le prestige des gares historiques. Sur le côté, une rame est stationnée, un train de fret accompagné de containers, suggérant la mixité voyageurs / marchandises.",
+      "careers": [
+        {
+          "id": "agent-en-gare",
+          "title": "Agent(e) en gare"
+        },
+        {
+          "id": "agent-surete",
+          "title": "Agent(e) de sûreté"
+        },
+        {
+          "id": "agent-a-bord-des-trains",
+          "title": "Agent(e) à bord des trains"
+        },
+        {
+          "id": "aiguilleur",
+          "title": "Aiguilleur(e) du rail"
+        },
+        {
+          "id": "agent-sol-ferroviaire",
+          "title": "Agent(e)/opérateur-trice au sol ferroviaire"
+        },
+        {
+          "id": "operateur-securite-sol-2",
+          "title": "Opérateur(trice) Sécurité Sol"
+        }
+      ]
+    },
+    {
+      "id": "hub-de-transport-hurbain",
+      "title": "Hub de transport hurbain",
+      "image": null,
+      "description": "Plateforme urbaine multimodale combinant métro, tram, bus et mobilités douces (vélos, cycles). Le site est structuré autour d’une petite tour de supervision, symbolisant la coordination opérationnelle des flux.",
+      "careers": [
+        {
+          "id": "agent-de-surete",
+          "title": "Agent de sûreté"
+        },
+        {
+          "id": "conducteur-de-metro-tram",
+          "title": "Conducteur de métro / tram"
+        },
+        {
+          "id": "conducteur-de-bus",
+          "title": "Conducteur de bus"
+        },
+        {
+          "id": "controleur",
+          "title": "Contrôleur"
+        },
+        {
+          "id": "responsable-de-l-information-voyageur",
+          "title": "Responsable de l’information voyageur"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure-ferroviaire",
+      "title": "Infrastructure ferroviaire",
+      "image": null,
+      "description": "Scène d’infrastructure à ciel ouvert avec des voies ferrées, un passage à niveau visible et une locomotive jaune de travaux. L’ensemble évoque les opérations de maintenance lourde et l’entretien du réseau.",
+      "careers": [
+        {
+          "id": "agent-maintenance-voie-ferree",
+          "title": "Agent(e) de maintenance des voies ferrées"
+        },
+        {
+          "id": "technicien-de-la-catenaire",
+          "title": "Technicien(ne) de la caténaire"
+        },
+        {
+          "id": "annonceur-sentinelle",
+          "title": "Annonceur(se) sentinelle"
+        },
+        {
+          "id": "technicien-de-maintenance-responsable-travaux",
+          "title": "Technicien(ne) de maintenance signalisation"
+        },
+        {
+          "id": "electricien-haute-moyenne-tension",
+          "title": "Électricien(ne) haute et moyenne tension"
+        },
+        {
+          "id": "agent-trains-travaux",
+          "title": "Agent(e) Trains Travaux"
+        }
+      ]
+    },
+    {
+      "id": "technicentre",
+      "title": "Technicentre",
+      "image": null,
+      "description": "Grand hangar industriel situé en bout de ligne, dédié à la maintenance ferroviaire. Plusieurs trains dépassent partiellement du bâtiment, suggérant des interventions en cours. Rails apparents, signalétique technique et personnel en activité renforcent l’ambiance d’un site spécialisé.",
+      "careers": [
+        {
+          "id": "technicien-de-maintenance-des-trains",
+          "title": "Technicien(ne) de maintenance des trains"
+        },
+        {
+          "id": "cheffe-dequipe-electricienne-basse-tension",
+          "title": "Chef(fe) d’équipe électricien(ne) basse tension"
+        }
+      ]
+    },
+    {
+      "id": "atelier-de-maintenance-urbain",
+      "title": "Atelier de maintenance urbain",
+      "image": null,
+      "description": "Bâtiment technique situé en bout de ligne de bus ou de tram, avec accès large et véhicules stationnés devant. Zone d’atelier clairement marquée avec mobilier urbain technique et éléments de maintenance visibles.",
+      "careers": [
+        {
+          "id": "agent-de-maintenance-mecanicien-bus",
+          "title": "Agent de maintenance / mécanicien bus"
+        },
+        {
+          "id": "carrossier-reparateur",
+          "title": "Carrossier réparateur"
+        },
+        {
+          "id": "electrotechnicien",
+          "title": "Électrotechnicien"
+        },
+        {
+          "id": "technicien-de-maintenance-infrastructures",
+          "title": "Technicien de maintenance infrastructures"
+        }
+      ]
+    },
+    {
+      "id": "circulation-ferroviaire",
+      "title": "Circulation ferroviaire",
+      "image": null,
+      "description": "Voie ferrée linéaire avec un train moderne en mouvement. Des poteaux caténaires et des panneaux ferroviaires ponctuent la scène. L’environnement s’ouvre vers un paysage périurbain ou rural, apportant de l’ouverture à la carte.",
+      "careers": [
+        {
+          "id": "agent-a-bord-des-trains",
+          "title": "Agent(e) à bord des trains"
+        },
+        {
+          "id": "conducteur-de-train",
+          "title": "Conducteur(trice) de train/engin"
+        }
+      ]
+    },
+    {
+      "id": "bureau-detudes-ingenierie",
+      "title": "Bureau d’études / ingénierie",
+      "image": null,
+      "description": "Immeuble moderne à façade vitrée, toiture plate, situé dans un environnement tertiaire, avec quelques éléments techniques visibles comme des panneaux solaires ou un pylône.",
+      "careers": [
+        {
+          "id": "data-scientist",
+          "title": "Data scientist"
+        },
+        {
+          "id": "ingenieur-cybersecurite",
+          "title": "Ingénieur cybersécurité"
+        },
+        {
+          "id": "chef-de-projet-systemes-d-informations",
+          "title": "Chef de projet Systèmes d’informations"
+        }
+      ]
+    }
+  ]
+}
